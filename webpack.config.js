@@ -1,5 +1,5 @@
 const path = require('path')
-const { CleanWebpackPlugin } = require('clean-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
@@ -85,7 +85,7 @@ module.exports = {
                 test: /\.m?js$/,
                 exclude: /node_modules/,
                 use: jsLoaders()
-            }
+            },
         ],
     },
 }
